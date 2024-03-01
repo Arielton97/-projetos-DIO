@@ -1,6 +1,6 @@
 # projeto-classificador-de-nivel-de-heroi
 
-========    tipos de variáveis  ========
+========    Tipos de variáveis  ========
 
 **string** - são variaveis que armazenam texto
 **number** - são variaveis que armazenam números**
@@ -116,10 +116,44 @@ do {
 console.log(`Você digitou o número ${numero}.`);
 
 
-
-
-
 //  Nomes de função não começa com número, começa sempre com letra
 //  funções são ações, coloque as funções como verbos e de maneira 
 //  clara oque ele faz. 
 //  
+
+
+## Funções com parâmetros   
+
+
+nomeCompleto("Arielton", "Ribeiro")
+
+function nomeCompleto(name, surname)   {
+    console.log("Meu nome é " + name)
+    console.log("Meu sobrenome é " + surname)
+}
+
+Caso eu chame a função e não dê um nome para a variávél:
+
+
+nomeCompleto("Arielton",/* sem valor aqui... */)
+
+function nomeCompleto(name, surname = "linda(o)")   {
+    console.log("Meu nome é " + name)
+    console.log("Meu sobrenome é " + surname)
+}
+
+
+##  Evite gambiarras
+
+## Funções com retorno
+
+// A função é chamada, o valor de retorno terminará em x 
+let x = minhaFunção(4, 3);
+
+function minhaFunção(a, b) { 
+//  Função retorna o produto de a e b 
+return a*b; 
+}
+
+//  Uma função só pode retornar um valor ou um objeto
+

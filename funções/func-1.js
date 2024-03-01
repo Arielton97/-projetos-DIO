@@ -1,8 +1,8 @@
 
-torrar("pão de forma")
-torrar("pao integral")
+nomeCompleto("Arielton", "Ribeiro")
 
-function torrar(pao)   {
-    console.log("torrada feita com " + pao)
+function nomeCompleto(name, surname)   {
+    console.log("Meu nome é " + name)
+    console.log("Meu sobrenome é " + surname)
 }
 
